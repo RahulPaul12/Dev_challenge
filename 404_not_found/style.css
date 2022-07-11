@@ -1,0 +1,41 @@
+h1,p,button,footer{
+    font-family: "Inconsolata", sans-serif;
+}
+.column{
+    width: 50%;
+    float: left;
+}
+.column1{
+    padding-left: 10%;
+    font-size: 25px;
+}
+main{
+    margin:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    color: rgb(181, 189, 189);
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 3%;
+    border: none;
+}
+@media only screen and (max-width:768px) {
+    main{
+        display: block;
+    }
+   .column{
+    width: 100%;
+    float: none;
+   }
+   .column1{
+    
+    padding-left: 0px;
+    padding: 2px;
+   }
+}
